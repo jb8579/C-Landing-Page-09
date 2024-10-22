@@ -12,6 +12,23 @@
     .trust-content {
         gap: 10px;
     }
+
+    .footer-license-images img {
+        width: 140px !important;
+    }
+    
+    img.footer-ico.icon-18 {
+        width: 60px !important;
+    }
+    
+    .payments {
+        width: 100% !important;
+    }
+
+    .payments img {
+        width: 60px !important;
+    }
+
     .header-content > h1 {
         font-size: 28px;
         line-height: 40px;
@@ -89,6 +106,9 @@
 
 
 @media (max-width: 599px){
+    .footer {
+        overflow-x: hidden;
+    }
 
     p.item-p-title {
         font-weight: 700 !important;
@@ -486,7 +506,11 @@
         padding: 0px;
         background: var(--payment-logo-background, transparent);
         margin: 0px 0px 30px 0px;
-        width: 340px !important;
+        width: 100%;
+    }
+
+    .payments img {
+        width: 90px !important;
     }
 }
 
