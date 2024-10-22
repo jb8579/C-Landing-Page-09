@@ -421,6 +421,11 @@
         justify-content: center;
         flex-wrap: wrap;
         margin-bottom: 25px;
+        gap: 6px;
+    }
+
+    .footer-license-images img {
+        padding: 5px 8px 10px 8px;
     }
 
     .footer-cp-bg.pb-3 {
@@ -470,6 +475,18 @@
         display: flex;
         gap: 60px;
         flex-direction: column-reverse;
+    }
+
+    .payments {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+        padding: 0px;
+        background: var(--payment-logo-background, transparent);
+        margin: 0px 0px 30px 0px;
+        width: 340px !important;
     }
 }
 
